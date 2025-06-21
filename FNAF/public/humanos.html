@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Human Characters | ABOUT FNAF</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="fnaf-header">
+    <h1>ABOUT FNAF</h1>
+    <nav class="fnaf-nav">
+      <a href="index.html">Home</a>
+      <a href="animatronics.html">Animatronics</a>
+      <a href="humanos.html">Human Characters</a>
+      <a href="secundarios.html">Extras / Others</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Human Characters</h2>
+      <p>
+        Explore all human characters in the FNAF universe: Afton family, security guards, main characters, kids, protagonists, antagonists, and more!
+      </p>
+      <div class="character-grid">
+
+        <!-- WILLIAM AFTON -->
+        <div class="character-card" onclick="openModal('williamafton')">
+          <img src="https://i.pinimg.com/1200x/a2/d7/f6/a2d7f61e562f41a6f7e5360717525b22.jpg" alt="William Afton">
+          <h4>William Afton</h4>
+          <div class="tag">Antagonist / Founder</div>
+          <p>The main villain, creator of the animatronics, child murderer, known as Purple Guy and Springtrap.</p>
+        </div>
+        <div class="modal-bg" id="modal-williamafton">
+          <div class="modal-content">
+            <button class="close-btn" onclick="closeModal('williamafton')">&times;</button>
+            <img src="https://i.pinimg.com/1200x/a2/d7/f6/a2d7f61e562f41a6f7e5360717525b22.jpg" alt="William Afton">
+            <h2>William Afton</h2>
+            <div class="tag">Antagonist / Founder</div>
+            <div class="modal-section">
+              <h4>Description</h4>
+              <p>Co-founder of Fazbear Entertainment, responsible for the Missing Children Incident and much of the FNAF lore's tragedy. Becomes Springtrap after being trapped in a suit.</p>
+            </div>
+            <div class="modal-section">
+              <h4>Aliases</h4>
+              <ul><li>Purple Guy, Springtrap, Scraptrap, Glitchtrap (virus), Burntrap, The Man Behind the Slaughter.</li></ul>
+            </div>
+            <div class="modal-section">
+              <h4>Games appeared in</h4>
+              <ul>
+                <li>FNAF 2, 3, 4 (minigames), Sister Location, FNAF 6, UCN, Help Wanted, Security Breach, Ruin (as Mimic/virus)</li>
+              </ul>
+            </div>
+            <div class="modal-section">
+              <h4>Trivia</h4>
+              <ul>
+                <li>Father of the Afton family. One of gaming's most iconic villains.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- HENRY EMILY -->
+        <div class="character-card" onclick="openModal('henryemily')">
+          <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8d6a8cfa-402e-49d6-aa6b-c0873281c465/df2y89u-91b1f8f9-beb8-4fb3-94dc-16f9ce448c3a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhkNmE4Y2ZhLTQwMmUtNDlkNi1hYTZiLWMwODczMjgxYzQ2NVwvZGYyeTg5dS05MWIxZjhmOS1iZWI4LTRmYjMtOTRkYy0xNmY5Y2U0NDhjM2EucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.iZzG7jtsT0QbJrRm0pWSHZpIq1XVKgCgAqcpdpxiUKQ" alt="Henry Emily">
+          <h4>Henry Emily</h4>
+          <div class="tag">Protagonist / Founder</div>
+          <p>Co-founder of Fazbear Entertainment, father of Charlotte (The Puppet). Creator of the final plan to end the hauntings.</p>
+        </div>
+        <div class="modal-bg" id="modal-henryemily">
+          <div class="modal-content">
+            <button class="close-btn" onclick="closeModal('henryemily')">&times;</button>
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8d6a8cfa-402e-49d6-aa6b-c0873281c465/df2y89u-91b1f8f9-beb8-4fb3-94dc-16f9ce448c3a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhkNmE4Y2ZhLTQwMmUtNDlkNi1hYTZiLWMwODczMjgxYzQ2NVwvZGYyeTg5dS05MWIxZjhmOS1iZWI4LTRmYjMtOTRkYy0xNmY5Y2U0NDhjM2EucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.iZzG7jtsT0QbJrRm0pWSHZpIq1XVKgCgAqcpdpxiUKQ" alt="Henry Emily">
+            <h2>Henry Emily</h2>
+            <div class="tag">Protagonist / Founder</div>
+            <div class="modal-section">
+              <h4>Description</h4>
+              <p>Brilliant engineer, voice heard in FNAF 6’s true ending. Tried to set the lost souls free by sacrificing himself and the restaurant.</p>
+            </div>
+            <div class="modal-section">
+              <h4>Games appeared in</h4>
+              <ul>
+                <li>FNAF 6 (main), FNAF 2, 3, 4 (minigames, implied)</li>
+              </ul>
+            </div>
+            <div class="modal-section">
+              <h4>Trivia</h4>
+              <ul>
+                <li>His daughter, Charlotte, possesses The Puppet.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- MICHAEL AFTON -->
+        <div class="character-card" onclick="openModal('michaelafton')">
+          <img src="https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/f/f9/Corpse_Michael.gif/revision/latest/scale-to-width/360?cb=20181002165219&path-prefix=es" alt="Michael Afton">
+          <h4>Michael Afton</h4>
+          <div class="tag">Protagonist / Afton Family</div>
+          <p>Son of William Afton. Protagonist of Sister Location, possibly the guard in multiple games.</p>
+        </div>
+        <div class="modal-bg" id="modal-michaelafton">
+          <div class="modal-content">
+            <button class="close-btn" onclick="closeModal('michaelafton')">&times;</button>
+            <img src="https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/f/f9/Corpse_Michael.gif/revision/latest/scale-to-width/360?cb=20181002165219&path-prefix=es" alt="Michael Afton">
+            <h2>Michael Afton</h2>
+            <div class="tag">Protagonist / Afton Family</div>
+            <div class="modal-section">
+              <h4>Description</h4>
+              <p>Main character of Sister Location. Tasked by William to find his sister, ends up being scooped and inhabited by Ennard. Survives as a "living corpse".</p>
+            </div>
+            <div class="modal-section">
+              <h4>Aliases</h4>
+              <ul>
+                <li>Eggs Benedict, Mike Schmidt (possible), Fritz Smith (possible), Purple Guy (after being scooped)</li>
+              </ul>
+            </div>
+            <div class="modal-section">
+              <h4>Games appeared in</h4>
+              <ul>
+                <li>Sister Location, FNAF 1 (theory), FNAF 2, FNAF 3 (theory), FNAF 6</li>
+              </ul>
+            </div>
+            <div class="modal-section">
+              <h4>Trivia</h4>
+              <ul>
+                <li>Survives events that would kill any normal human.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- ELIZABETH AFTON -->
+        <div class="character-card" onclick="openModal('elizabethafton')">
+          <img src="https://preview.redd.it/quick-question-what-character-do-you-think-has-more-lore-v0-fc5j92lm7oib1.jpg?width=640&crop=smart&auto=webp&s=022134bd8a5243e58f49fa42c8732c25073a08e9" alt="Elizabeth Afton">
+          <h4>Elizabeth Afton</h4>
+          <div class="tag">Afton Family</div>
+          <p>Daughter of William Afton. Possesses Circus Baby after her death by the animatronic.</p>
+        </div>
+        <div class="modal-bg" id="modal-elizabethafton">
+          <div class="modal-content">
+            <button class="close-btn" onclick="closeModal('elizabethafton')">&times;</button>
+            <img src="https://preview.redd.it/quick-question-what-character-do-you-think-has-more-lore-v0-fc5j92lm7oib1.jpg?width=640&crop=smart&auto=webp&s=022134bd8a5243e58f49fa42c8732c25073a08e9" alt="Elizabeth Afton">
+            <h2>Elizabeth Afton</h2>
+            <div class="tag">Afton Family</div>
+            <div class="modal-section">
+              <h4>Description</h4>
+              <p>Disobeys her father's warnings and is killed by Circus Baby. Her soul possesses Baby, later becoming Scrap Baby.</p>
+            </div>
+            <div class="modal-section">
+              <h4>Aliases</h4>
+              <ul>
+                <li>Circus Baby, Scrap Baby</li>
+              </ul>
+            </div>
+            <div class="modal-section">
+              <h4>Games appeared in</h4>
+              <ul>
+                <li>Sister Location, FNAF 6</li>
+              </ul>
+            </div>
+            <div class="modal-section">
+              <h4>Trivia</h4>
+              <ul>
+                <li>Her death sets in motion much of the later FNAF story.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- CRYING CHILD / "EVAN" -->
+        <div class="character-card" onclick="openModal('cryingchild')">
+          <img src="https://static.wikia.nocookie.net/fantasyheroes/images/2/21/Crying_child.png/revision/latest?cb=20200311213822" alt="Crying Child">
+          <h4>Crying Child ("Evan")</h4>
+          <div class="tag">Afton Family / Victim</div>
+          <p>Younger son of William Afton. Victim of the Bite of '83. Protagonist of FNAF 4.</p>
+        </div>
+        <div class="modal-bg" id="modal-cryingchild">
+          <div class="modal-content">
+            <button class="close-btn" onclick="closeModal('cryingchild')">&times;</button>
+            <img src="https://static.wikia.nocookie.net/fantasyheroes/images/2/21/Crying_child.png/revision/latest?cb=20200311213822" alt="Crying Child">
+            <h2>Crying Child ("Evan")</h2>
+            <div class="tag">Afton Family / Victim</div>
+            <div class="modal-section">
+              <h4>Description</h4>
+              <p>Main character of FNAF 4. Traumatised by animatronics, bullied by his older brother, dies after the Bite of '83.</p>
+            </div>
+            <div class="modal-section">
+              <h4>Aliases</h4>
+              <ul>
+                <li>Evan (fan name), "Bite Victim"</li>
+              </ul>
+            </div>
+            <div class="modal-section">
+              <h4>Games appeared in</h4>
+              <ul>
+                <li>FNAF 4, FNAF World (minigame), theories about future appearances</li>
+              </ul>
+            </div>
+            <div class="modal-section">
+              <h4>Trivia</h4>
+              <ul>
+                <li>Real name never confirmed in-game.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- VANESSA / VANNY -->
+        <div class="character-card" onclick="openModal('vanessa')">
+          <img src="https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/f/fc/VannyOfficialRenderFullBody.png/revision/latest/scale-to-width/360?cb=20250421124219" alt="Vanessa">
+          <h4>Vanessa / Vanny</h4>
+          <div class="tag">Antagonist / Security Breach</div>
+          <p>Night guard of the Pizzaplex. Under Glitchtrap's control, also known as "Vanny".</p>
+        </div>
+        <div class="modal-bg" id="modal-vanessa">
+          <div class="modal-content">
+            <button class="close-btn" onclick="closeModal('vanessa')">&times;</button>
+            <img src="https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/f/fc/VannyOfficialRenderFullBody.png/revision/latest/scale-to-width/360?cb=20250421124219" alt="Vanessa">
+            <h2>Vanessa / Vanny</h2>
+            <div class="tag">Antagonist / Security Breach</div>
+            <div class="modal-section">
+              <h4>Description</h4>
+              <p>Appears as the main human antagonist in Security Breach. Struggles with her split personality, manipulated by Glitchtrap.</p>
+            </div>
+            <div class="modal-section">
+              <h4>Aliases</h4>
+              <ul>
+                <li>Vanny, Reluctant Follower</li>
+              </ul>
+            </div>
+            <div class="modal-section">
+              <h4>Games appeared in</h4>
+              <ul>
+                <li>Security Breach, Help Wanted (as Reluctant Follower), Ruin</li>
+              </ul>
+            </div>
+            <div class="modal-section">
+              <h4>Trivia</h4>
+              <ul>
+                <li>Her bunny costume is a direct reference to Glitchtrap.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- GREGORY -->
+        <div class="character-card" onclick="openModal('gregory')">
+          <img src="https://static.wikia.nocookie.net/fivenightsatfreddys/images/d/d4/GregoryTSBFnobackround.png/revision/latest/scale-to-width/360?cb=20231102194249" alt="Gregory">
+          <h4>Gregory</h4>
+          <div class="tag">Protagonist / Security Breach</div>
+          <p>Main protagonist of Security Breach and Ruin. Hunted by animatronics throughout the Pizzaplex.</p>
+        </div>
+        <div class="modal-bg" id="modal-gregory">
+          <div class="modal-content">
+            <button class="close-btn" onclick="closeModal('gregory')">&times;</button>
+            <img src="https://static.wikia.nocookie.net/fivenightsatfreddys/images/d/d4/GregoryTSBFnobackround.png/revision/latest/scale-to-width/360?cb=20231102194249" alt="Gregory">
+            <h2>Gregory</h2>
+            <div class="tag">Protagonist / Security Breach</div>
+            <div class="modal-section">
+              <h4>Description</h4>
+              <p>Young child, wakes up in the Pizzaplex after hours, must survive and uncover the truth with the help of Glamrock Freddy.</p>
+            </div>
+            <div class="modal-section">
+              <h4>Games appeared in</h4>
+              <ul>
+                <li>Security Breach, Ruin</li>
+              </ul>
+            </div>
+            <div class="modal-section">
+              <h4>Trivia</h4>
+              <ul>
+                <li>His origins and past are the subject of many fan theories.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- CASSIE -->
+        <div class="character-card" onclick="openModal('cassie')">
+          <img src="https://i.redd.it/how-does-cassie-be-looking-straight-up-adorable-in-the-2d-v0-p8pt2jeqzi2c1.png?width=1080&format=png&auto=webp&s=a77c2e261fd389a9fb19cb6778d5916df7ef06c3" alt="Cassie">
+          <h4>Cassie</h4>
+          <div class="tag">Protagonist / Ruin DLC</div>
+          <p>Main character of the Ruin DLC, seeks to save Gregory from the ruins of the Pizzaplex.</p>
+        </div>
+        <div class="modal-bg" id="modal-cassie">
+          <div class="modal-content">
+            <button class="close-btn" onclick="closeModal('cassie')">&times;</button>
+            <img src="https://i.redd.it/how-does-cassie-be-looking-straight-up-adorable-in-the-2d-v0-p8pt2jeqzi2c1.png?width=1080&format=png&auto=webp&s=a77c2e261fd389a9fb19cb6778d5916df7ef06c3" alt="Cassie">
+            <h2>Cassie</h2>
+            <div class="tag">Protagonist / Ruin DLC</div>
+            <div class="modal-section">
+              <h4>Description</h4>
+              <p>New protagonist introduced in Ruin. Faces The Mimic, must solve puzzles and avoid dangers to survive.</p>
+            </div>
+            <div class="modal-section">
+              <h4>Games appeared in</h4>
+              <ul>
+                <li>Security Breach: Ruin</li>
+              </ul>
+            </div>
+            <div class="modal-section">
+              <h4>Trivia</h4>
+              <ul>
+                <li>Relationship with Gregory is mysterious, possibly a friend or family.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- JEREMY FITZGERALD -->
+        <div class="character-card" onclick="openModal('jeremyfitzgerald')">
+          <img src="https://st4.depositphotos.com/20867096/40755/i/450/depositphotos_407554770-stock-photo-silhouette-arab-handsome-doctor-wearing.jpg" alt="Jeremy Fitzgerald">
+          <h4>Jeremy Fitzgerald</h4>
+          <div class="tag">Guard / FNAF 2</div>
+          <p>Night guard in FNAF 2, survives the main week but is "moved to day shift".</p>
+        </div>
+        <div class="modal-bg" id="modal-jeremyfitzgerald">
+          <div class="modal-content">
+            <button class="close-btn" onclick="closeModal('jeremyfitzgerald')">&times;</button>
+            <img src="https://st4.depositphotos.com/20867096/40755/i/450/depositphotos_407554770-stock-photo-silhouette-arab-handsome-doctor-wearing.jpg" alt="Jeremy Fitzgerald">
+            <h2>Jeremy Fitzgerald</h2>
+            <div class="tag">Guard / FNAF 2</div>
+            <div class="modal-section">
+              <h4>Description</h4>
+              <p>Main playable character in FNAF 2, receives paycheck after surviving the events.</p>
+            </div>
+            <div class="modal-section">
+              <h4>Games appeared in</h4>
+              <ul>
+                <li>FNAF 2</li>
+              </ul>
+            </div>
+            <div class="modal-section">
+              <h4>Trivia</h4>
+              <ul>
+                <li>In FNAF VR, another Jeremy (Jeremy King) becomes the first victim of Glitchtrap.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- FRITZ SMITH -->
+        <div class="character-card" onclick="openModal('fritzsmith')">
+          <img src="https://st4.depositphotos.com/20867096/40755/i/450/depositphotos_407554770-stock-photo-silhouette-arab-handsome-doctor-wearing.jpg" alt="Fritz Smith">
+          <h4>Fritz Smith</h4>
+          <div class="tag">Guard / FNAF 2</div>
+          <p>Replacement guard in Night 7 of FNAF 2. Fired for "odor" and "tampering".</p>
+        </div>
+        <div class="modal-bg" id="modal-fritzsmith">
+          <div class="modal-content">
+            <button class="close-btn" onclick="closeModal('fritzsmith')">&times;</button>
+            <img src="https://st4.depositphotos.com/20867096/40755/i/450/depositphotos_407554770-stock-photo-silhouette-arab-handsome-doctor-wearing.jpg" alt="Fritz Smith">
+            <h2>Fritz Smith</h2>
+            <div class="tag">Guard / FNAF 2</div>
+            <div class="modal-section">
+              <h4>Description</h4>
+              <p>Playable on Night 7 of FNAF 2, receives a pink slip immediately after one shift.</p>
+            </div>
+            <div class="modal-section">
+              <h4>Games appeared in</h4>
+              <ul>
+                <li>FNAF 2 (Custom Night)</li>
+              </ul>
+            </div>
+            <div class="modal-section">
+              <h4>Trivia</h4>
+              <ul>
+                <li>Theories link him to Michael Afton due to his dismissal reasons.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- MIKE SCHMIDT -->
+        <div class="character-card" onclick="openModal('mikeschmidt')">
+          <img src="https://i1.sndcdn.com/artworks-EKzz6YOkJyJZbrVq-rSh8eQ-t500x500.jpg" alt="Mike Schmidt">
+          <h4>Mike Schmidt</h4>
+          <div class="tag">Guard / FNAF 1</div>
+          <p>Main protagonist and guard in FNAF 1, survives five nights before being fired.</p>
+        </div>
+        <div class="modal-bg" id="modal-mikeschmidt">
+          <div class="modal-content">
+            <button class="close-btn" onclick="closeModal('mikeschmidt')">&times;</button>
+            <img src="https://i1.sndcdn.com/artworks-EKzz6YOkJyJZbrVq-rSh8eQ-t500x500.jpg" alt="Mike Schmidt">
+            <h2>Mike Schmidt</h2>
+            <div class="tag">Guard / FNAF 1</div>
+            <div class="modal-section">
+              <h4>Description</h4>
+              <p>Night guard in FNAF 1, possibly the same as Michael Afton. Fired for "odor" and "tampering with animatronics".</p>
+            </div>
+            <div class="modal-section">
+              <h4>Games appeared in</h4>
+              <ul>
+                <li>FNAF 1</li>
+              </ul>
+            </div>
+            <div class="modal-section">
+              <h4>Trivia</h4>
+              <ul>
+                <li>Final pay slip hints at dark fate; heavily theorized character.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other guards and characters can be added in the same way... -->
+        <!-- Ejemplo: Phone Guy (ya incluido como secundario), Vanessa's therapist, Charlie (Charlotte Emily), etc. -->
+
+      </div> <!-- End of character-grid -->
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+  <footer>
+    <hr>
+    <p>
+      Site &copy; 2025 - About FNAF | Fan-made, not official | Info from
+      <a href="https://freddy-fazbears-pizza.fandom.com/" target="_blank">FNAF Wiki</a> and community.
+    </p>
+  </footer>
+</body>
+</html>
