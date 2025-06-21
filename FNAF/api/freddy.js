@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Only POST allowed' });
 
-  const apiKey = process.env.OPENAI_API_KEY_;
+  const apiKey = process.env.OPENAI_API_KEY;
   const { question } = req.body;
 
   const systemPrompt = `
