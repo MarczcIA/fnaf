@@ -26,7 +26,7 @@
         Explore the complete lore of Five Nights at Freddy's, including ALL animatronics, human characters, and secrets up to the latest games.<br>
         Use the navigation menu to dive into each section!
       </p>
-      <img src=https://media.sketchfab.com/models/fa1d152e37224e5f83d696bd54932bc1/thumbnails/c20a007c05f34dd5841c23ecf8566481/18c0c3e7c883497a8d7d2d2b4437d746.jpeg"" alt="FNAF Cast" style="max-width:420px; width:90%; border-radius:18px; margin:24px 0;">
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9d4b4ea9-3892-4c26-a933-4d1c1d416a25/dg1oqcb-a0a41d24-15c6-45c2-9fc2-24938e5ca96d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzlkNGI0ZWE5LTM4OTItNGMyNi1hOTMzLTRkMWMxZDQxNmEyNVwvZGcxb3FjYi1hMGE0MWQyNC0xNWM2LTQ1YzItOWZjMi0yNDkzOGU1Y2E5NmQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.pA10XJEPseNUsjlGvG652xjUBUhtkaTC06L40w66634" alt="FNAF Cast" style="max-width:420px; width:90%; border-radius:18px; margin:24px 0;">
     </section>
 
     <section style="max-width:800px; margin:50px auto 0 auto; text-align:left;">
@@ -45,26 +45,26 @@
     </section>
   </main>
 
-<!-- ASK FREDDY BUTTON & CHAT -->
-<button id="ask-freddy-btn" class="ask-freddy-btn">ASK FREDDY</button>
+  <!-- ASK FREDDY BUTTON & CHAT -->
+  <button id="ask-freddy-btn" class="ask-freddy-btn">ASK FREDDY</button>
 
-<div id="ask-freddy-chat" class="ask-freddy-chat">
-  <div class="chat-header">
-    <img src="https://media.sketchfab.com/models/fa1d152e37224e5f83d696bd54932bc1/thumbnails/c20a007c05f34dd5841c23ecf8566481/18c0c3e7c883497a8d7d2d2b4437d746.jpeg">
-    <span>ASK FREDDY</span>
-    <button class="close-chat" onclick="closeFreddyChat()">&times;</button>
-  </div>
-  <div id="freddy-messages" class="chat-messages">
-    <div class="freddy-message">
-      <img src="https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/3/3d/Freddy_Fazbear.png" alt="Freddy" class="freddy-avatar"">
-      <div><b>Hi there, superstar! I'm Freddy Fazbear. Ask me anything about our pizzeria, my friends, or the whole FNAF universe!</b></div>
+  <div id="ask-freddy-chat" class="ask-freddy-chat">
+    <div class="chat-header">
+      <img src="https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/3/3d/Freddy_Fazbear.png" alt="Freddy" class="freddy-avatar">
+      <span>ASK FREDDY</span>
+      <button class="close-chat" onclick="closeFreddyChat()">&times;</button>
     </div>
+    <div id="freddy-messages" class="chat-messages">
+      <div class="freddy-message">
+        <img src="https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/3/3d/Freddy_Fazbear.png" alt="Freddy" class="freddy-avatar">
+        <div><b>Hi there, superstar! I'm Freddy Fazbear. Ask me anything about our pizzeria, my friends, or the whole FNAF universe!</b></div>
+      </div>
+    </div>
+    <form id="freddy-form" class="chat-form">
+      <input type="text" id="freddy-input" placeholder="Ask Freddy anything..." autocomplete="off" required>
+      <button type="submit">Send</button>
+    </form>
   </div>
-  <form id="freddy-form" class="chat-form">
-    <input type="text" id="freddy-input" placeholder="Ask Freddy anything..." autocomplete="off" required>
-    <button type="submit">Send</button>
-  </form>
-</div>
 
   <script src="js/script.js"></script>
   <footer>
