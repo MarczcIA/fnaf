@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ABOUT FNAF</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="AOWaH5qA1lHxwTOWakXverQ6J2INCLSoHeeehQ_ixNs" />
+  <!-- Enlace a tu CSS global -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="fnaf-header">
+    <h1>ABOUT FNAF</h1>
+    <p>Interactive Encyclopedia</p>
+    <nav class="fnaf-nav">
+      <a href="index.html">Home</a>
+      <a href="animatronics.html">Animatronics</a>
+      <a href="humanos.html">Human Characters</a>
+      <a href="secundarios.html">Extras / Others</a>
+    </nav>
+  </header>
+
+  <main>
+    <section style="text-align:center; margin-top:40px;">
+      <h2>Welcome to the Ultimate Five Nights at Freddy's Encyclopedia</h2>
+      <p style="font-size:1.2em; color:#FFD43B;">
+        Explore the complete lore of Five Nights at Freddy's, including ALL animatronics, human characters, and secrets up to the latest games.<br>
+        Use the navigation menu to dive into each section!
+      </p>
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9d4b4ea9-3892-4c26-a933-4d1c1d416a25/dg1oqcb-a0a41d24-15c6-45c2-9fc2-24938e5ca96d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzlkNGI0ZWE5LTM4OTItNGMyNi1hOTMzLTRkMWMxZDQxNmEyNVwvZGcxb3FjYi1hMGE0MWQyNC0xNWM2LTQ1YzItOWZjMi0yNDkzOGU1Y2E5NmQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.pA10XJEPseNUsjlGvG652xjUBUhtkaTC06L40w66634" alt="FNAF Cast" style="max-width:420px; width:90%; border-radius:18px; margin:24px 0;">
+    </section>
+
+    <section style="max-width:800px; margin:50px auto 0 auto; text-align:left;">
+      <h3 style="color:#FFD43B;">Sections:</h3>
+      <ul style="font-size:1.15em; line-height:1.7;">
+        <li>
+          <a href="animatronics.html"><strong>Animatronics</strong></a> — All versions from classic Freddy, Bonnie, Chica, Foxy, to Glamrocks, Rockstars, Nightmares, Funtimes, Security Breach, Ruin, and more.
+        </li>
+        <li>
+          <a href="humanos.html"><strong>Human Characters</strong></a> — Protagonists, antagonists, guards, Afton family, Gregory, Cassie, and every key figure.
+        </li>
+        <li>
+          <a href="secundarios.html"><strong>Extras / Others</strong></a> — Minor, secret, and cameo characters: Phone Guy, Glitchtrap, HandUnit, Candy Cadet, spirits, and easter eggs.
+        </li>
+      </ul>
+    </section>
+  </main>
+
+<!-- ASK FREDDY BUTTON & CHAT -->
+<button id="ask-freddy-btn" class="ask-freddy-btn">ASK FREDDY</button>
+
+<div id="ask-freddy-chat" class="ask-freddy-chat">
+  <div class="chat-header">
+    <img src="https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/3/3d/Freddy_Fazbear.png" alt="Freddy" class="freddy-avatar">
+    <span>ASK FREDDY</span>
+    <button class="close-chat" onclick="closeFreddyChat()">&times;</button>
+  </div>
+  <div id="freddy-messages" class="chat-messages">
+    <div class="freddy-message">
+      <img src="https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/3/3d/Freddy_Fazbear.png" alt="Freddy" class="freddy-avatar">
+      <div><b>Hi there, superstar! I'm Freddy Fazbear. Ask me anything about our pizzeria, my friends, or the whole FNAF universe!</b></div>
+    </div>
+  </div>
+  <form id="freddy-form" class="chat-form">
+    <input type="text" id="freddy-input" placeholder="Ask Freddy anything..." autocomplete="off" required>
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+  <script src="js/script.js"></script>
+  <footer>
+    <hr>
+    <p>
+      Site &copy; 2025 - About FNAF | Fan-made, not official | Info from
+      <a href="https://freddy-fazbears-pizza.fandom.com/" target="_blank">FNAF Wiki</a> and community.
+    </p>
+  </footer>
+</body>
+</html>
